@@ -32,7 +32,7 @@ public class SelectThread extends Thread
 			t1.start(); t2.start(); t3.start();
 			t1.join(); t2.join(); t3.join();
 
-			Button.setText("¿ªÊ¼");
+			Button.setText("Start");
 			Button.setEnabled(true);
 			ProgressBar.setIndeterminate(false);
 			JOptionPane.showMessageDialog(null, "Successful !");
